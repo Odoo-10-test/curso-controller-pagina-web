@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<odoo>
+    <template inherit_id="website.footer_custom" name="Footer marlon" id="footer_marlon">
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div id="footer" class="container hidden-print">
+                <h2>hello word</h2>
+            </div>
+        </xpath>
+    </template>
+</odoo>

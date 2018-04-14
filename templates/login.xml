@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="assets_login" inherit_id="web.assets_frontend">
+		<xpath expr="." position="inside">
+			<link rel="stylesheet" href="/curso/static/src/css/login.css"></link>
+		</xpath>
+	</template>
+
+	<template id="login_inherit" inherit_id="web.login">
+        <xpath expr="//form[@class='oe_login_form']" position="after">
+            <p>Powered by Falcon</p>
+        </xpath>
+    </template>
+</odoo>
